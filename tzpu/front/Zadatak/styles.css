@@ -1,0 +1,100 @@
+html {
+  background-color: #d8ede6;
+}
+
+.glavni2 {
+  display: flex;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  font-style: italic;
+  text-shadow: 2px 2px #92c0cc;
+  font-size: xx-large;
+}
+
+.divNaslov {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+.divInput {
+  display: flex;
+  width: 1000px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.inputZadatka {
+  display: flex;
+  width: 1000px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.divButton {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+
+.btn:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+.dugmici {
+  display: flex;
+  justify-content: center;
+}
+.divPreuzmi {
+  display: flex;
+  margin-top: 20px;
+}
+.btnPreuzmi {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+.nazad {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+.nazad:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+.divButtonNazad {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

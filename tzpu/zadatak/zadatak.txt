@@ -1,0 +1,6 @@
+Kreirati cup specifikaciju za generisanje sintaksnog (i semantičkog) analizatora for-petlje koja je
+opisana gramatikom iz prethodnog zadatka. Za generisanje potrebnog leksičkog analizatora kreirati
+odgovarajuću flex specifikaciju. Terminalni simbol ID predstavlja niz cifara i slova u kojem je prvi
+znak obavezno slovo. CONST je celobrojna konstanta zapisana u dekadnom brojnom sistemu, ili
+string (niz karktera između dvostrukih navodnika). Semantičko pravilo o kojem treba voditi računa je
+da tip promeniljive ID mora da se slaže sa tipovima svih izraza u listi. 

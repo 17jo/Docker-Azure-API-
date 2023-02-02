@@ -1,0 +1,165 @@
+html {
+  background-color: #d8ede6;
+}
+
+.glavni3 {
+  display: flex;
+  font-style: normal;
+  align-self: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.divDocker {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+.divAzure {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+.divHorizon {
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+h1 {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  font-style: italic;
+  text-shadow: 2px 2px #92c0cc;
+  font-size: xx-large;
+}
+.divSlike {
+  display: flex;
+  justify-content: space-around;
+}
+.divNaslov {
+  margin-bottom: 50px;
+}
+.slikaDoker {
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+}
+.slikaAzure {
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+}
+.slikaHorizon {
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+}
+.divButton {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.myBtn {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+.btnAzure {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+.btnHorizon {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+.myBtn:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+.btnAzure:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+.btnHorizon:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+.divNazad {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btnNazad {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+
+.btnNazad:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  border-radius: 20px;
+}
+.close {
+  color: rgb(29, 25, 25);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(10, 217, 253);
+  text-decoration: none;
+  cursor: pointer;
+}

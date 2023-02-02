@@ -1,0 +1,33 @@
+html {
+  background-color: #d8ede6;
+}
+.h1 {
+  display: flex;
+}
+
+.glavniStudent {
+  display: flex;
+  background-color: red;
+}
+.divInput {
+  display: flex;
+}
+.buttonPocetni {
+  display: flex;
+  background-color: blue;
+}
+
+.glavni2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.btnFileInput {
+  width: 150px;
+  margin-top: 20px;
+}

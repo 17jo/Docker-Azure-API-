@@ -1,0 +1,14 @@
+.Glavni {
+  display: flex;
+  flex-direction: column;
+}
+.naslov {
+  font-size: 40px;
+}
+.mini {
+  display: flex;
+  flex-direction: column;
+}
+.divZad {
+  margin-bottom: 20px;
+}

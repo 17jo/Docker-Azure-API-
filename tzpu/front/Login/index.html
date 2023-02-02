@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="Stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="main.js" type="module"></script>
+    <div class=" container">
+    <button type="submit" class="btn" onClick="openPopup()">Uloguj se</button> 
+     <div class="popup" id="popup">
+      <h2>Unesite sifru</h2>
+      <p>Zavisno od toga da li ste profeosor ili student, popunite polje</p>
+      <input class="inputPopup" id= "a" type="password" >
+      <input type="checkbox" onclick="myFunction()">Pogledaj sifru
+      <div class="dugmici">
+        <button type="button" onClick=onClickButtonOk() id="btnOk">Ok</button> 
+        <button type="button" onClick=closePopup() id="btnZatvori">Zatvori</button>
+      </div>
+      
+     </div>
+  
+  </body>
+    
+  <script>
+    let popup = document.getElementById("popup");
+    function openPopup() {
+      popup.classList.add("open-popup");
+    }
+    function closePopup() {
+      popup.classList.remove("open-popup"); 
+    }
+
+    function myFunction() {
+        var x = document.getElementById("a");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+    }
+     
+   
+  </script>
+
+</html>

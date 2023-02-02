@@ -1,0 +1,62 @@
+html {
+  background-color: #d8ede6;
+}
+.glavniStudent {
+  display: flex;
+  font-style: normal;
+  align-self: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.divStudent {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.divPocetni {
+  display: flex;
+  background-color: aliceblue;
+  /* height: 400px; */
+  padding: 10px;
+  width: 1000px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+.dugmeUpload {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.buttonUpload {
+  border-radius: 20px;
+  background: rgb(86 202 208);
+  height: 50px;
+  font-size: 22px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 60px;
+  font-style: italic;
+  text-shadow: 2px 2px #83b4c1;
+}
+.buttonUpload:hover {
+  background: #6fe4f8;
+  transition: all 0.35s;
+}
+
+.inputZadatka {
+  width: 100%;
+  height: 400px;
+}
+
+.divButton {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
